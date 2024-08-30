@@ -1,0 +1,62 @@
+/* Style for prediction1.html form */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+    background-image: url('nabi.png');
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.prsnl {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="radio"] {
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.radio-edt {
+    margin-bottom: 20px;
+}
+
+.center {
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    padding: 8px 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.btn-primary {
+    margin-left: 10px;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}

@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa; /* Light gray background */
+    color: #343a40; /* Dark text color */
+    background-image: url('login1.png');
+    background-size: cover; /* Cover the entire background */
+}
+
+.container {
+    max-width: 800px;
+    direction:center;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    border-radius: 8px; /* Rounded corners */
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Stack items vertically */
+}
+
+.title {
+    color: #000; /* Black font color */
+    text-align: left; /* Align title to the left */
+    margin-bottom: 20px;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    list-style-type: decimal; /* Use numbers as bullets */
+}
+
+a {
+    color: #007bff; /* Blue link color */
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #0056b3; /* Darker blue on hover */
+}

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style8.css') }}">
+
+    <title>{{ city }} Colleges</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">{{ city }} Colleges</h1>
+        <ul>
+            {% for college, url in colleges.items() %}
+            <li><a href="{{ url }}">{{ college }}</a></li>
+            {% endfor %}
+        </ul>
+    </div>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style4.css') }}">
+</head>
+<body>
+    <div class="prsnl">
+        <form action="/prediction1" method="post">
+            <label for="name"><strong>Name:</strong></label><br>
+            <input type="text" name="name" id="name" required><br>
+            <div class="radio-edt">
+                <label for="city"><strong>City:</strong></label><br>
+                <input type="radio" id="Mumbai" name="city" value="Mumbai">
+                <label for="Mumbai"><strong>Mumbai :</strong></label><br>
+                <input type="radio" id="NaviMumbai" name="city" value="Navi Mumbai">
+                <label for="NaviMumbai"><strong>Navi Mumbai :</strong></label><br>
+                <input type="radio" id="Thane" name="city" value="Thane">
+                <label for="Thane"><strong>Thane :</strong></label><br>
+            </div>
+            <label for="hobbies"><strong>Hobbies:</strong></label><br>
+            <input type="text" id="hobbies" name="hobbies" required><br>
+            <label for="subject"><strong>Favourite Subject:</strong></label><br>
+            <input type="text" id="subject" name="subject" required><br>
+            <a href="/prediction2" class="btn btn-primary">
+                <button type="submit" class="btn">Next</button>
+            </a>
+            </form>
+        </form>
+    </div>
+</body>
+</html>
