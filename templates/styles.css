@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image:url('dark-ntr.png');
+    background-size: cover;
+    background-position: center;
+}
+form{
+    max-width: 350px;
+    margin: 100px auto;
+}
+.prsnl{
+    margin-top: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+    border-radius: 10px;
+    height:75%;
+}
+input{
+    margin-top: 30px;
+    margin-bottom: 40px;
+    margin-left: 18px;
+    border-radius: 15px;
+    margin-top: 30px;
+    width: 75%;
+    border: 2px solid rgb(191, 160, 196);
+    padding: 10px;
+    background-color: rgb(243, 212, 237);
+}
+label{
+    margin-left: 20px;
+    margin-bottom: 15px;
+    font-size: 20px; 
+    padding-top: 15%;
+    color: #0e0e0e;   
+}
